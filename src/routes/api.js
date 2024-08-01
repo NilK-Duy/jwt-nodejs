@@ -15,6 +15,6 @@ routerAPI.post("/register", createUser)
 routerAPI.post("/login", handleLogin)
 
 routerAPI.get("/user", getUser)
-routerAPI.get("/account", delay, getAccount)
+routerAPI.get("/account", getAccount)
 
 module.exports = routerAPI //export default
